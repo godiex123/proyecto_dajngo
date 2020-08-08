@@ -122,9 +122,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+# Archivos static
 STATIC_URL = '/static/'
-
 STATICFILES_DIRS = [STATIC_DIR]
+
+# Archivos media
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 LOGIN_URL = '/ControlInventario/user_login/'
